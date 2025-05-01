@@ -122,6 +122,6 @@ fun Activity.keepScreenOn() {
     window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
 }
 
-fun Activity.endKeepScreenOn() {
+fun Activity.clearKeepScreenOnFlag() {
     window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
 }
